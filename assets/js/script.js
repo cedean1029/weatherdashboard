@@ -19,7 +19,7 @@ var getLonLat = function (city) {
             console.log(lonCoord);
 
             //format weather api
-            var weatherUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + latCoord + "&lon=" + lonCoord + "&exclude=alerts&units=standard&appid=" + weatherApiKey;
+            var weatherUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + latCoord + "&lon=" + lonCoord + "&exclude=alerts&units=imperial&appid=" + weatherApiKey;
             console.log(weatherUrl);
 
             //fetch weather data
