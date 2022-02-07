@@ -11,8 +11,21 @@
 
 <body>
     <header>
-        
+        <h1>Weather Dashboard</h1>
     </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <h3 class="card-header text-uppercase">Search a City</h3>
+                <form id="city-form" class="card-body">
+                    <label class="form-labe" for="cityname"></label>
+                    <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="btn">Get City Weather</button>
+                </form>
+            </div>
+        </div>
+    </main>
 
     <script src="./assets/js/script.js"></script>
 </body>
