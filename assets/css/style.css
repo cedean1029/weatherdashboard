@@ -4,46 +4,56 @@ body {
   line-height: 1;
 }
 
-/* header {
-    background-color: aquamarine;
-    background-image: -o-linear-gradient(
-        180deg,
-    #06aed5 0%,
-    #05cfae 52%,
-    #2b75ff 90%
-    );
-} */
-
 header {
-  padding: 20px 35px;
-  background-color: aquamarine;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(168, 114, 12);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  color: #989979;
+  color: #ffffff;
   flex-direction: row;
   align-items: center;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 9999;
+  border-radius: 35px;
 }
 
 header h1 {
+  margin: 5px;
   font-weight: bold;
   font-size: 36px;
-  margin-left: -50px;
-  margin-right: 20px;
-  background-color: #f7fff6;
-  padding-left: 75px;
-  padding-right: 20px;
+  width: 100%;
+  text-align: center;
 }
 
 .btn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  margin: 5px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgb(29, 29, 102);
   color: white;
-  padding: 13px 0px 0px 25px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-body {
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.card-header {
+  border-radius: 10px;
+  background-color: rgb(168, 114, 12);
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-input {
+  margin: 5px;
+  width: 100%;
 }
